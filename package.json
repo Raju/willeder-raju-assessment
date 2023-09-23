@@ -4,6 +4,7 @@
   "keywords": [],
   "private": true,
   "description": "a blog app",
+  "homepage": "https://raju.github.io/willeder-raju-assessment",
   "bugs": {
     "url": "https://github.com/raju/willeder-raju-assessment/issues",
     "email": "imrajudhami@gmail.com"
@@ -21,7 +22,9 @@
     "eject": "react-scripts eject",
     "fix-code": "npx eslint_d src/**/*.js --cache",
     "fix-styles": "npx stylelint '**/*.*css' --cache --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "*.{css,scss}": [],
@@ -50,6 +53,7 @@
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^6.0.0",
     "husky": "^8.0.3",
     "install-peerdeps": "^3.0.3",
     "lint-staged": "^14.0.1",
