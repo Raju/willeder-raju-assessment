@@ -1,0 +1,54 @@
+/** @format */
+
+.carousel {
+	display: flex;
+	height: 37.5rem;
+
+	&__item {
+		align-items: center;
+		display: flex;
+		position: relative;
+	}
+
+	&__image {
+		width: 100%;
+	}
+
+	&__text {
+		display: flex;
+		flex-flow: column nowrap;
+		gap: 1.5rem;
+		left: 50%;
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		transform: translate(-50%, -50%);
+
+		&--id {
+			font-size: 1.5rem;
+			letter-spacing: 0.45rem;
+			width: 20rem;
+		}
+
+		&--heading {
+			font-size: 2rem;
+			letter-spacing: 0.5rem;
+			width: 20rem;
+		}
+
+		&--content {
+			font-size: 1.25rem;
+			letter-spacing: 0.1rem;
+			width: 20rem;
+		}
+	}
+}
+
+@media (width <= 768px) {
+	.carousel {
+		flex-flow: column nowrap;
+		gap: 2rem;
+		height: 85rem;
+		padding: 2rem;
+	}
+}

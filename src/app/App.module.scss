@@ -1,0 +1,164 @@
+/** @format */
+
+.container {
+	align-items: center;
+	background: url("../../public/assets/images/dashboard.png") center/cover no-repeat;
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 4rem;
+	height: 67.5rem;
+	justify-content: flex-end;
+
+	.logo {
+		align-items: center;
+		display: flex;
+		flex-flow: row nowrap;
+		gap: 4rem;
+		justify-content: flex-end;
+		padding: 0 10rem;
+
+		&__image {
+			height: 144.5px;
+			width: 144.5px;
+		}
+
+		&__title {
+			color: #ffffff;
+			font-size: 4.88rem;
+			letter-spacing: 2.34rem;
+		}
+	}
+
+	.heading {
+		align-items: center;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		min-width: 100%;
+		text-align: center;
+
+		&__strip {
+			background: #6a45ff;
+			color: #ffffff;
+			display: flex;
+			font-size: 2rem;
+			height: 3rem;
+			justify-content: center;
+			letter-spacing: 0.6rem;
+			min-width: 100%;
+		}
+
+		&__content {
+			align-items: center;
+			color: #ffffff;
+			display: flex;
+			font-size: 1.25rem;
+			justify-content: center;
+			letter-spacing: 0.38rem;
+			line-height: 2rem;
+			margin-top: 2rem;
+			text-align: center;
+			width: 80rem;
+		}
+	}
+
+	.scroll {
+		color: #ffffff;
+		font-size: 1rem;
+		letter-spacing: 0.3rem;
+		text-align: center;
+
+		&__title {
+			margin-bottom: 0.5rem;
+		}
+	}
+}
+
+.secondary__container {
+	align-items: center;
+	color: #ffffff;
+	display: flex;
+	flex-flow: column nowrap;
+	font-size: 2.5rem;
+	height: 100%;
+	justify-content: center;
+	letter-spacing: 0.75rem;
+	position: relative;
+
+	&::before {
+		background-color: #6a45ff;
+		content: "";
+		height: 100%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%);
+		width: 17.5rem;
+	}
+
+	&--heading {
+		font-size: 2.5rem;
+		letter-spacing: 0.75rem;
+		margin-top: 20rem;
+		z-index: 100;
+	}
+
+	&--subheading {
+		font-size: 1.5rem;
+		letter-spacing: 0.45rem;
+		z-index: 100;
+	}
+}
+
+@media (width <= 768px) {
+	.container {
+		.logo {
+			gap: 2rem;
+			justify-content: center;
+
+			&__image {
+				height: 4.3rem;
+				width: 4.3rem;
+			}
+
+			&__title {
+				color: #ffffff;
+				font-size: 2.25rem;
+			}
+		}
+
+		.heading {
+			&__strip {
+				background: transparent;
+				font-size: 1.5rem;
+				letter-spacing: 0.38rem;
+			}
+
+			&__content {
+				font-size: 0.88rem;
+				letter-spacing: 0.1rem;
+				padding: 5rem;
+				width: 78%;
+			}
+		}
+	}
+
+	.secondary__container {
+		&::before {
+			background-color: #6a45ff25;
+			width: 5rem;
+		}
+
+		&--heading {
+			color: #000000;
+			font-size: 1.5rem;
+			letter-spacing: 0.45rem;
+			margin-top: 2rem;
+		}
+
+		&--subheading {
+			color: #000000;
+			font-size: 1.5rem;
+			letter-spacing: 0.38rem;
+		}
+	}
+}

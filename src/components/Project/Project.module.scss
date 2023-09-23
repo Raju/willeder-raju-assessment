@@ -1,0 +1,95 @@
+/** @format */
+
+.project {
+	background: #dce1e6;
+	display: flex;
+	justify-content: center;
+	padding: 12.5rem 0;
+	width: 100%;
+
+	&__container {
+		align-items: center;
+		display: flex;
+		flex-flow: row nowrap;
+		gap: 7.5rem;
+		justify-content: center;
+		z-index: 1;
+	}
+
+	&__image {
+		height: 27.5rem;
+		width: 46.9rem;
+	}
+
+	&__text {
+		display: flex;
+		flex-flow: column nowrap;
+		gap: 2rem;
+		width: 28rem;
+
+		&--id {
+			border-bottom: 8px solid #6a45ff;
+			color: #000000;
+			font-size: 2rem;
+			letter-spacing: 0.6rem;
+		}
+
+		&--heading {
+			color: #000000;
+			font-size: 1rem;
+			letter-spacing: 0.05rem;
+		}
+
+		&--content {
+			align-items: center;
+			display: flex;
+			font-weight: bold;
+			gap: 1rem;
+			margin-top: 2rem;
+		}
+
+		&--submit {
+			color: #000000;
+			font-size: 1rem;
+			letter-spacing: 0.3rem;
+		}
+
+		&--submitlogo {
+			height: 2rem;
+			width: 2rem;
+		}
+	}
+}
+
+@media (width <= 768px) {
+	.project {
+		&__container {
+			align-items: flex-start;
+			flex-flow: column nowrap;
+			gap: 3rem;
+		}
+
+		&__image {
+			height: 24rem;
+			order: 2;
+			width: 85%;
+		}
+
+		&__text {
+			padding-left: 2rem;
+			width: 100%;
+
+			&--id {
+				order: 1;
+			}
+
+			&--heading {
+				order: 3;
+			}
+
+			&--content {
+				order: 4;
+			}
+		}
+	}
+}
