@@ -42,7 +42,7 @@ const Footer = () => (
 				rel="noopener noreferrer"
 			>
 				<img
-					src="/assets/images/facebook.svg"
+					src="assets/images/facebook.svg"
 					alt="facebook"
 					className={styles.social__icon}
 				/>
@@ -54,7 +54,7 @@ const Footer = () => (
 				rel="noopener noreferrer"
 			>
 				<img
-					src="/assets/images/twitter.svg"
+					src="assets/images/twitter.svg"
 					alt="twitter"
 					className={styles.social__icon}
 				/>
@@ -66,7 +66,7 @@ const Footer = () => (
 				rel="noopener noreferrer"
 			>
 				<img
-					src="/assets/images/instagram.svg"
+					src="assets/images/instagram.svg"
 					alt="instagram"
 					className={styles.social__icon}
 				/>
@@ -78,7 +78,7 @@ const Footer = () => (
 				rel="noopener noreferrer"
 			>
 				<img
-					src="/assets/images/tiktok.svg"
+					src="assets/images/tiktok.svg"
 					alt="youtube"
 					className={styles.social__icon}
 				/>

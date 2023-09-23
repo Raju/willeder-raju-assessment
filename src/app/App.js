@@ -16,7 +16,7 @@ const App = () => {
 				<section className={styles.container}>
 					<div className={styles.logo}>
 						<img
-							src="/assets/images/logo.svg"
+							src="assets/images/logo.svg"
 							alt="logo"
 							className={styles.logo__image}
 						/>
@@ -31,7 +31,7 @@ const App = () => {
 					<hgroup className={styles.scroll}>
 						<p className={styles.scroll__title}>scroll</p>
 						<img
-							src="/assets/images/line.svg"
+							src="assets/images/line.svg"
 							alt="logo"
 							className={styles.scroll__logo}
 						/>
