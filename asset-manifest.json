@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/willeder-raju-assessment/static/css/main.fe24f343.css",
-    "main.js": "/willeder-raju-assessment/static/js/main.c437f625.js",
+    "main.js": "/willeder-raju-assessment/static/js/main.c2aa25c5.js",
     "static/js/496.f4df253b.chunk.js": "/willeder-raju-assessment/static/js/496.f4df253b.chunk.js",
     "static/media/dashboard.png": "/willeder-raju-assessment/static/media/dashboard.0ce4470faeca8ab0095b.png",
     "index.html": "/willeder-raju-assessment/index.html",
     "main.fe24f343.css.map": "/willeder-raju-assessment/static/css/main.fe24f343.css.map",
-    "main.c437f625.js.map": "/willeder-raju-assessment/static/js/main.c437f625.js.map",
+    "main.c2aa25c5.js.map": "/willeder-raju-assessment/static/js/main.c2aa25c5.js.map",
     "496.f4df253b.chunk.js.map": "/willeder-raju-assessment/static/js/496.f4df253b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe24f343.css",
-    "static/js/main.c437f625.js"
+    "static/js/main.c2aa25c5.js"
   ]
 }
