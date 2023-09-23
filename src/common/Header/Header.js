@@ -6,7 +6,7 @@ const Header = () => (
 			<ul className={styles.navigation__menu}>
 				<li className={styles.navigation__item}>
 					<img
-						src="assets/images/images/logo.svg"
+						src="assets/images/logo.svg"
 						alt="logo"
 						className={styles.navigation__logo}
 					/>
@@ -42,7 +42,7 @@ const Header = () => (
 
 				<li className={styles.navigation__item}>
 					<img
-						src="assets/images/images/menu.svg"
+						src="assets/images/menu.svg"
 						alt="logo"
 						className={styles.navigation__logo}
 					/>
